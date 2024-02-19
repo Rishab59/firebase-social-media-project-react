@@ -1,0 +1,22 @@
+Used:
+    *{
+        Firebase -> social-media-project-react
+        ID -> social-media-project-react-59
+        Public-facing name -> Social-Media-Project-React-Firebase
+    }
+    *{
+        Database -> Firestore
+    }
+
+
+
+In login.tsx:
+    signInWithPopup from "firebase/auth"
+
+In navbar.tsx:
+    useAuthState from "react-firebase-hooks/auth"
+    signOut from "firebase/auth"
+
+In firebase.tsx:
+    initializeApp from "firebase/app"
+    getAuth, GoogleAuthProvider from "firebase/auth"

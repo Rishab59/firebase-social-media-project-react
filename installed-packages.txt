@@ -1,0 +1,9 @@
+npm install react-router-dom
+
+npm install firebase
+
+npm install react-firebase-hooks
+
+npm install react-hook-form yup
+
+npm install @hookform/resolvers
