@@ -1,0 +1,30 @@
+ .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('./login\ bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  .login p {
+    font-size: 1.5rem; 
+    margin-bottom: 20px; 
+  }
+  
+  .login button {
+    padding: 10px 20px; 
+    font-size: 1.2rem; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+  }
+  
+  .login button:hover {
+    background-color: #0056b3; 
+  }
+  

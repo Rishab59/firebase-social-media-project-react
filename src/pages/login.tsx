@@ -1,3 +1,4 @@
+import "./loginstyles.css";
 import { useNavigate } from "react-router-dom" ;
 
 import { auth, provider } from "../config/firebase" ;
@@ -16,7 +17,7 @@ export const Login = () => {
 
 
     return(
-        <div>
+        <div className="login">
             <p>Sign In with Google to Continue</p>
             <button onClick = { signInWithGoogle }>Sign In with Google</button>
         </div>
