@@ -1,9 +1,45 @@
-.navbar{
-    position:fixed;
-    width:100%;
-    top: 10px;
-    left:0;
-    /* background-color: transparent; */
-    z-index: var(--z-fixed);
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #333; 
+    color: white; 
 }
 
+.links {
+    display: flex;
+}
+
+.links a {
+    color: white;
+    text-decoration: none; 
+    margin-right: 20px; 
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user p {
+    margin-right: 10px; 
+}
+
+.user img {
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.user button {
+    background-color: transparent;
+    color: white; 
+    cursor: pointer;
+    font-size: 14px; 
+    padding: 5px 10px; 
+}
+
+.user button:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px; 
+}

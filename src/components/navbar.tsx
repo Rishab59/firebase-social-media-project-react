@@ -1,3 +1,4 @@
+import "./navbarstyles.css";
 import { Link, useNavigate } from "react-router-dom" ;
 
 import { auth } from "../config/firebase" ;
@@ -34,7 +35,7 @@ export const Navbar = () => {
                 { user && (
                     <>
                         <p>{ auth.currentUser?.displayName }</p>
-                        <img src = { auth.currentUser?.photoURL || "" } width = "20" height = "20" alt = "" />
+                        <img src = { auth.currentUser?.photoURL || "" } width = "30" height = "30" alt = "" />
 
                         <button onClick = { signUserOut }>Log Out</button>
                     </>
