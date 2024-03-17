@@ -1,3 +1,5 @@
+import "./poststyles.css";
+
 import { useEffect, useState } from "react" ;
 
 import { useAuthState } from "react-firebase-hooks/auth" ;
@@ -95,7 +97,7 @@ export const Post = (props: Props) => {
 
 
     return(
-        <div>
+        <div className="post-container">
             <div className = "title">
                 <h1>
                     { post.title }
